@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" conten="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elías Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3d1641f1d0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="header-text">
+                <h1>Hola! Soy <span>Elías</span></h1>
+                <h2>desarrollador de software junior</h2>
+            </div>
+        </div>
+    </div>
+<!-----------about----------->
+    <div id="about">
+        <div class="container-about">
+            <div class="row">
+                <div class="about-col-1">
+                    <h1 class="subtitle">Sobre mí</h1>
+                </div>
+                <div class="about-col-2">
+                    <p>Me llamo Elias Gioia, nací en Chacabuco. Siempre me gustó la tecnología, saber como funcionan las cosas y crear cosas yo mismo (por eso mis amigos bromean conmigo diciendo que rompo todo). Quiero convertirme desarrollador de software, es lo que me gusta y me estoy formando para eso. Disfruto de trabajar en equipo y tengo muchas ganas de aprender.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('educacion')">Educación</p>
+                        <p class="tab-links" onclick="opentab('experiencia')">Experiencia</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programación Frontend</span><br>Diseño y programación de Landing Page, paginas web. <br>(HTML, CSS, Javascript, Frameworks)</li>
+                            <li><span>Programación Backend</span><br>Diseño y creación de algoritmos para realizar tareas de recopilación de datos. <br>(Python, SQL, Git)</li>
+                            <li><span>Programación de PLC</span><br>Creación de estructuras electronicas para uso de maquinas industriales. <br>(Lenguaje ladder básico)</li>
+                            <li><span>Herramientas informáticas</span> <br>(Word, Excel, Photoshop)</li>
+                            <li><span>Herramientas Eléctricas</span> <br>(Amoladora, Soldadora, Agujereadora, etc)</li>
+                            <li><span>Electricidad</span> <br>(Instalaciones eléctricas)</li>
+                            <li><span>Idiomas</span> <br>Español nativo. <br>Inglés nivel alto.</li>
+                            <li><span>Aptitudes</span> <br>Trabajo en equipo. <br>Proactivo. <br>Ordenado. <br>Buenas relaciones interpersonales. <br>Mate amargo.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="educacion">
+                        <ul>
+                            <li><span>Escuela Nacional Superior N°4</span><br>Bachiller en comunicación.</li>
+                            <li><span>Curso Argentina Programa</span><br>Graduado como programador web trainee.</li>
+                            <li><span>Instituto Técnico Superior (InTeCh 132)</span><br>En curso Analista de Sistemas.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiencia">
+                        <ul>
+                            <li><span>Electricidad RDL Ingredion (noviembre 2022-actualidad)</span><br>Trabajo con una empresa contratista de electricidad industrial dentro de la fábrica Ingredion en la que me dedico a: <br>-Instalación, reparación y mantenimiento de equipos eléctricos de iluminacion como equipos led, teclas y enchufes. <br>-Motores, acomentidas de motores. <br>-Fabricación y montaje de cañerias para cables de electricidad. <br>-Conexión y montaje de tableros eléctricos. <br>-Recibí capacitación de programación de UPS, robot KUKA e instrumentos eléctricos.</li>
+                            <li><span>Aprendiz de técnico en Espacio Virtual (2020-2021)</span><br>Estuve Trabajando en una tienda de tecnología en mi ciudad: <br>-Reparación de celulares. <br>-Reparación de PC y programación de PC / sistema operativo. <br>-Atención al cliente. </li>
+                            <li><span>Ayudante de instalador de equipos de red Santander (2019-2020)</span><br>Mi trabajo consistía en viajar con mi compañero a los bancos Santander de los alrededores de mi ciudad para instalar equipos en los servidores y cables de red.</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------PORTFOLIO------------>
+    <div id="portfolio">
+        <div class="container_port">
+            <h1 class="subtitle">Portfolio</h1>
+            <div>
+                <h2>:(</h2>
+                <p>Aún no tengo proyectos para mostrar. <br>Acá voy a poner los proyectos o trabajos que vaya haciendo. <br>Por el momento considere como proyecto ésta página web. La hice desde cero y además está optimizada para dispositivos moviles.</p>
+            </div>
+        </div>
+    </div>
+    <!-----------CONTACTO------------>
+    <div id="contact">
+        <div class="container-contact">
+            <h1 class="subtitle">Contactame!</h1>    
+            <div class="social-icons">
+                <p><i class="fa-regular fa-paper-plane"></i> eliasgioia7@gmail.com</p>
+                <h2>Redes Sociales</h2>
+                <a href="https://www.instagram.com/eliasgioia/" target="_blank"><i class="fa-brands fa-instagram"> </i></a>
+                <a href="https://www.linkedin.com/in/elias-gioia-8150052a4/" target="_blank"><i class="fa-brands fa-linkedin"></i></i></a>
+                <a href="https://x.com/eliasgioia_" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+            <a href="cv.pdf" download class="btn">Descargar CV</a>
+        </div>
+    </div>
+    <footer>
+        <h3>Elias Gioia | 2024</h3>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
