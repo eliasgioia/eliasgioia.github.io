@@ -3,14 +3,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #e3dac9;
 }
 
 /* Barra de navegación */
 .navbar {
     display: flex;
     justify-content: flex-start; /* Alinea los elementos a la izquierda */
-    background: #333;
+    background: #e3dac9;
     padding: 15px 30px;
 }
 
@@ -28,11 +28,22 @@ body {
 /* Enlaces */
 .nav-links a {
     text-decoration: none;
-    color: white;
+    color: rgb(70, 70, 70);
     font-size: 18px;
-    transition: color 0.3s ease;
+    display: inline-block;
+    transition: transform 0.5s;
 }
 
 .nav-links a:hover {
-    color: #ffcc00;
+    color: #ff1212;
+    transform: translateY(-5px);
+}
+.header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    height: 85vh;
+    font-size: 60px;
+    
+    text-align: center;
+    margin-top: 180px;
 }
