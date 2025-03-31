@@ -54,3 +54,17 @@ header h2{
     margin: 0;
     font-size: 30px;
 }
+.about_me {
+    display: flex; 
+    align-items: center;
+    gap: 20px;
+}
+.about_me img {
+    margin: 10%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+.about_me .info {
+    max-width: 500px;
+}
