@@ -1,0 +1,56 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3dac9;
+}
+
+/* Barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: flex-start; /* Alinea los elementos a la izquierda */
+    background: #e3dac9;
+    padding: 15px 30px;
+}
+
+/* Lista de enlaces */
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 40px; /* Aumenta la separación entre los botones */
+}
+
+/* Enlaces */
+.nav-links a {
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+    font-size: 18px;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.nav-links a:hover {
+    color: #ff1212;
+    transform: translateY(-5px);
+}
+.header {
+    width: 100%;
+    height: 58vh;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 180px;
+}
+.header h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 10;
+    margin-bottom: 0;
+}
+header h2{
+    margin: 0;
+    font-size: 30px;
+}
