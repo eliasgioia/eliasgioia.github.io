@@ -96,7 +96,7 @@ header h2{
 }
 
 .skills img {
-    margin-left: 30%;
+    margin-left: 40%;
     width: 400px;
     height: 400px;
     border-radius: 10%;
@@ -108,4 +108,27 @@ header h2{
     font-size: 60px;
     font-weight: lighter;
 }
-    
+.experience{
+    display: flex; 
+    align-items: center;
+    gap: 20px;
+}
+
+.experience img {
+    margin: 5%;
+    width: 400px;
+    height: 400px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+.experience .experience_info {
+    font-size: 22px;
+    max-width: 700px;
+}
+
+.experience h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    font-weight: lighter;
+}
