@@ -159,3 +159,16 @@ header h2{
     font-size: 60px;
     font-weight: lighter;
 }
+.thanks{
+    text-align: center;
+    margin: 15%;
+}
+.thanks h2{   
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    font-size: 140px;
+    font-weight: 10;
+}
+.thanks p{
+    font-size: 30px;
+}
