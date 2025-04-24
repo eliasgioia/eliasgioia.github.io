@@ -6,7 +6,6 @@
     <title>PORTAFOLIO</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-
 </head>
 <body>
     <nav class="navbar">
@@ -25,7 +24,7 @@
     <section class="about_me">
         <img src="imagenes/retrato.jpeg" alt="Retrato">
         <div class="info">
-            <h2>ABOUT ME</h2>
+            <h2>SOBRE MÍ</h2>
             <p>Hola! Gracias por permitirme presentarme. Mi nombre es Elías Gioia, tengo 23 años y soy de Chacabuco, Buenos Aires. Soy un estudiante avanzado de Analista de Sistemas y programador web. Si te interesa saber más de mí o ver en qué estoy trabajando, te invito a recorrer mi portfolio.</p>
         </div>
     </section>
@@ -78,12 +77,12 @@
                 <ul>
                     <li><img src="imagenes/call-icon.svg" alt="phone">
                         <div>
-                            <span>tel: </span><br>+54 987654321
+                            <span>tel: </span><br>+54 2352-495259
                         </div>
                     </li>
                     <li><img src="imagenes/email-round-solid-icon.svg" alt="e-mail">
                         <div>
-                            <span>e-mail: </span><br>email@gmail.com
+                            <span>e-mail: </span><br>eliasgioia7@gmail.com
                         </div>
                     </li>
                 </ul>
@@ -96,15 +95,17 @@
             </div>
             <div class="contact-form">
                 <h3>Deja un mensaje</h3>
-                <form>
-                    <input type="text"  placeholder="Nombre" required>
-                    <input type="email" placeholder="Email" required>
-                    <textarea style="resize: none;" placeholder="Mensaje" rows="5" cols="50"></textarea>
+                <form id="contactForm" action="https://formspree.io/f/xgvkerle" method="POST">
+                    <input type="text" name="name" placeholder="Nombre" required>
+                    <input type="email" name="email" placeholder="Email">
+                    <textarea name="message" style="resize: none;" placeholder="Mensaje" rows="5" cols="50"></textarea>
                     <p>By submiting,  you agree to the processing of your personal data as stated in the privacy policy.</p>
                     <button type="submit">Enviar</button>
+                    <p id="responseMsg" class="success-msg">¡Mensaje enviado con éxito!</p>
                 </form>
             </div>
         </div>
     </section>
+<script src="script.js"></script>
 </body>
 </html> 
