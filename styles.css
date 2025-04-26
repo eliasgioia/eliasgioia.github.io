@@ -100,16 +100,17 @@ header h2{
 }
 
 .skills img {
-    margin-left: 30%;
-    width: 400px;
-    height: 400px;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 530px;
+    height: 510px;
     border-radius: 10%;
     object-fit: cover;
 }
 
 .skills h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: lighter;
 }
         
