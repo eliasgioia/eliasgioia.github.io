@@ -1,20 +1,19 @@
-/* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
     margin: 0;
     padding: 0;
-    background-color: #e3dac9;
+    background-color: #fffded;
+    color: #333;
 }
 
-/* Barra de navegación */
 .navbar {
     display: flex;
-    justify-content: flex-start; /* Alinea los elementos a la izquierda */
-    background: #e3dac9;
+    justify-content: flex-start;
+    background: #fffded;
     padding: 15px 30px;
 }
 
-/* Lista de enlaces */
 .nav-links {
     list-style: none;
     padding: 0;
@@ -22,10 +21,9 @@ body {
 }
 
 .nav-links li {
-    margin-right: 40px; /* Aumenta la separación entre los botones */
+    margin-right: 40px;
 }
 
-/* Enlaces */
 .nav-links a {
     text-decoration: none;
     color: rgb(70, 70, 70);
@@ -35,9 +33,10 @@ body {
 }
 
 .nav-links a:hover {
-    color: #ff1212;
+    color: #ff6600;
     transform: translateY(-5px);
 }
+
 .header {
     width: 100%;
     height: 58vh;
@@ -45,12 +44,250 @@ body {
     text-align: center;
     margin-top: 180px;
 }
+
 .header h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 10;
     margin-bottom: 0;
 }
+
 header h2{
     margin: 0;
     font-size: 30px;
+}
+
+.about_me {
+    display: flex; 
+    align-items: center;
+    gap: 8%;
+    margin: 10%;
+}
+
+.about_me img {
+    width: 410px;
+    height: 500px;
+    border-radius: 5%;
+    object-fit: cover;
+    border-bottom: 10px solid #888;
+    border-right: 10px solid #888;
+}
+
+.about_me .info {
+    font-size: 24px;
+    max-width: 500px;
+}
+
+.about_me h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    font-weight: lighter;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+.skills{
+    margin: 5%;
+    display: flex; 
+    align-items: center;
+    gap: 20px;
+}
+
+.skills .skillsinfo {
+    margin: 5%;
+    font-size: 22px;
+    max-width: 700px;
+}
+
+.skills img {
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 530px;
+    height: 510px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+.skills h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    font-weight: lighter;
+}
+.experience{
+    display: flex; 
+    align-items: center;
+    gap: 20px;
+}
+
+.experience img {
+    margin: 5%;
+    width: 400px;
+    height: 400px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+.experience .experience_info {
+    font-size: 22px;
+    max-width: 700px;
+}
+
+.experience h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    font-weight: lighter;
+}
+.education{
+    margin: 5%;
+    display: flex; 
+    align-items: center;
+    gap: 20px;
+}
+.education .education_info {
+    font-size: 22px;
+    max-width: 700px;
+}
+
+.education img {
+    margin-left: 10%;
+    width: 400px;
+    height: 400px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+.education h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    font-weight: lighter;
+}
+.thanks{
+    text-align: center;
+    margin: 15%;
+}
+.thanks h2{   
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    font-size: 140px;
+    font-weight: 10;
+}
+.thanks p{
+    font-size: 30px;
+}
+/*------------------------------CONTACT--------------------------------*/
+.contact{ 
+    margin: 10%;
+    text-align: center;
+    font-size: 30px;
+}
+.contact-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+}
+.contact h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    margin: 5%;
+    font-size: 60px;
+}
+.social{
+    text-align: left;
+    font-size: 20px;
+    flex: 1;
+    min-width: 280px;
+    max-width: 450px;
+}
+.social ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.social li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #444;
+}
+.social img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    filter: brightness(0) saturate(100%) invert(51%) sepia(100%) saturate(900%) hue-rotate(1deg);
+}
+.social span{
+    font-weight: bold;
+    color: #000;
+}
+.social-icons{
+    display: inline-block;
+    color: white;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contact-form{
+    flex: 1;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.contact-form h3{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size:  14px;
+    box-sizing: border-box;
+}
+.contact-form button{
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    transition: bacrgound-color 0.3s ease;
+}
+.contact-form button:hover{
+    background-color: #e05500;
+}
+.contact-form p{
+    font-size: 15px;
+}
+.success-msg{
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transform: translateY(10px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.success-msg.show{
+    opacity: 1;
+    max-height: 100px;
+    transform: translateY(0);
 }
