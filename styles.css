@@ -476,4 +476,12 @@ header h2{
     max-height: 100px;
     transform: translateY(0);
 }
-
+footer{
+    margin: 0;
+    padding: 20px;
+    background-color: #020042;
+    height: 50px;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
