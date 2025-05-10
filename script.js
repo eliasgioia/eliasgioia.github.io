@@ -31,6 +31,7 @@ document.getElementById("contactForm").addEventListener("submit", async function
         alert("Error de conexión o servidor.");
     }
 });
+
   window.addEventListener('DOMContentLoaded', () => {
     const timelineItems = document.querySelectorAll('.timeline-item');
     const timelineLine = document.getElementById('timeline-line');
