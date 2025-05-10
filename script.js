@@ -1,4 +1,3 @@
-
   window.addEventListener('DOMContentLoaded', () => {
     const timelineItems = document.querySelectorAll('.timeline-item');
     const timelineLine = document.getElementById('timeline-line');
