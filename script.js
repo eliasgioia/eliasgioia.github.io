@@ -32,7 +32,7 @@ document.getElementById("contactForm").addEventListener("submit", async function
     }
 });
 
-  window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('DOMContentLoaded', () => {
     const timelineItems = document.querySelectorAll('.timeline-item');
     const timelineLine = document.getElementById('timeline-line');
 
