@@ -9,6 +9,7 @@ body {
 
 /* --------------------------------NAVBAR--------------------------------- */
 .navbar {
+    z-index: 1000;
     position: fixed;
     top: 0;
     left: 0;
@@ -66,8 +67,11 @@ header h2{
 .about_me {
     display: flex; 
     align-items: center;
-    gap: 8%;
     margin: 10%;
+}
+
+.about_me .imag{
+    width: 60%;
 }
 
 .about_me img {
@@ -80,6 +84,7 @@ header h2{
 }
 
 .about_me .info {
+    width: 4    0%;
     font-size: 24px;
     max-width: 500px;
 }
