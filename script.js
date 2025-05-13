@@ -47,4 +47,5 @@ window.addEventListener('DOMContentLoaded', () => {
         timelineLine.style.height = `${itemOffset}px`;
       }, index * 500); // animación secuencial
     });
-  });
+});
+AOS.init();
