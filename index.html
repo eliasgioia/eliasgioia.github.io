@@ -6,32 +6,36 @@
     <title>PORTAFOLIO</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>  
     <nav class="navbar">
         <ul class="nav-links">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Sobre Mí</a></li>
-            <li><a href="#">Habilidades</a></li>
-            <li><a href="#">Experiencia</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Sobre Mí</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#experience">Experiencia</a></li>
+            <li><a href="#education">Educación</a></li>
+            <li><a href="#contact">Contacto</a></li>
         </ul>
     </nav>
-    <header class="header">
+    <header class="header" id="home">
         <h1>PORTFOLIO</h1>
         <h2>_____________2025_____________</h2>
     </header>
-    <section class="about_me">
-        <img src="imagenes/retrato.jpeg" alt="Retrato">
-        <div class="info">
+    <section class="about_me" id="about">
+        <div class="imag" data-aos="fade-up" data-aos-delay="200">
+          <img src="imagenes/retrato.jpeg" alt="Retrato">
+        </div>
+        <div class="info" data-aos="fade-up">
             <h2>SOBRE MÍ</h2>
             <p>Hola! Gracias por permitirme presentarme. Mi nombre es Elías Gioia, tengo 23 años y soy de Chacabuco, Buenos Aires. Soy un estudiante avanzado de Analista de Sistemas y programador web. Si te interesa saber más de mí o ver en qué estoy trabajando, te invito a recorrer mi portfolio.</p>
         </div>
     </section>
-    <section class="skills">
+    <section class="skills" data-aos="fade-up" id="skills">
         <h2>HABILIDADES</h2> 
         <div class="skills-grid">  
-          <div class="skill large html">
+          <div class="skill large html" data-aos="fade-right" data-aos-delay="1100">
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -42,7 +46,7 @@
             </div>
           </div>
       
-          <div class="skill small python">
+          <div class="skill small python" data-aos="fade-right" data-aos-delay="300">
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -53,7 +57,7 @@
             </div>
           </div>
     
-          <div class="skill large css">
+          <div class="skill large css" data-aos="fade-right" data-aos-delay="100">
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -64,7 +68,7 @@
             </div>
           </div>
       
-          <div class="skill medium git">
+          <div class="skill medium git" data-aos="fade-left" data-aos-delay="200">
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -75,7 +79,7 @@
             </div>
           </div>
     
-          <div class="skill medium bootstrap">
+          <div class="skill medium bootstrap" data-aos="fade-left" data-aos-delay="800">
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -86,7 +90,7 @@
             </div>
           </div>
           
-          <div class="skill small javascript">
+          <div class="skill small javascript" data-aos="fade-right" data-aos-delay="700">
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -97,7 +101,7 @@
             </div>
           </div>
       
-          <div class="skill small sql">
+          <div class="skill small sql" data-aos="fade-right" data-aos-delay="500">
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -108,7 +112,7 @@
             </div>
           </div>
     
-          <div class="skill large asistencia">
+          <div class="skill large asistencia" data-aos="fade-left" data-aos-delay="600">
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -119,7 +123,7 @@
             </div>
           </div>
       
-          <div class="skill small github">
+          <div class="skill small github" data-aos="fade-left" data-aos-delay="1000">
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -130,7 +134,7 @@
             </div>
           </div>
       
-          <div class="skill large ingles">
+          <div class="skill large ingles" data-aos="fade-right" data-aos-delay="1300">
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -141,7 +145,7 @@
             </div>
           </div>
       
-          <div class="skill medium office">
+          <div class="skill medium office" data-aos="fade-right" data-aos-delay="900">
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -152,7 +156,7 @@
             </div>
           </div>
       
-          <div class="skill medium diseño">
+          <div class="skill medium diseño" data-aos="fade-left" data-aos-delay="400">
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -164,32 +168,88 @@
           </div>
         </div> 
     </section>
-    <section class="experience">
+    <section class="experience" data-aos="fade-up" id="experience">
+      <div class="imag">
         <img src="imagenes/retrato.jpeg" alt="Retrato">
-        <div class="experience_info">
-            <h2>EXPERIENCIA</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor error labore aliquam animi quis veritatis consequuntur explicabo quaerat laudantium doloribus pariatur, omnis esse fugit sunt veniam sint itaque exercitationem et.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic quisquam aliquid nisi rem adipisci reprehenderit placeat ad optio suscipit cumque unde delectus ratione qui et, ducimus est libero laboriosam temporibus?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui suscipit dolores, vel atque quisquam fugit nulla nemo commodi architecto laborum expedita consequatur officia corrupti eos quae aliquid deleniti delectus accusantium.</p>
+      </div>
+      <div class="experience_info" data-aos="fade-up" data-aos-delay="200">
+        <h2 data-aos="fade-up" data-aos-delay="100">EXPERIENCIA</h2>
+        <div class="timeline">
+          <div class="timeline-line" id="timeline-line"></div>
+        
+          <div class="timeline-item" data-index="1">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Tecnico instalador de equipos de red</h3>
+              <p>Instalación de equipos en servidores, cables de red, repetidores Wi-Fi y brindar soporte técnico – 2019 - 2020.</p>
+            </div>
+          </div>
+        
+          <div class="timeline-item" data-index="2">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Técnico electrónico</h3>
+              <p>Por un tiempo me dediqué a la reparación de celulares, consolas, PC, instalación de sistemas operativo y soporte técnico en una tienda de tecnoligía en mi ciudad – 2021 - 2022.</p>
+            </div>
+          </div>
+        
+          <div class="timeline-item" data-index="3">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Ayudante de mecánico</h3>
+              <p>Trabajé ayudando en el taller de mi padre, reparando autos y colocando equipos de GNC hasta de 5ta generación – 2020 - 2021 y 2022 - 2023
+            </div>
+          </div>
+  
+          <div class="timeline-item" data-index="4">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Electricidad RDL Ardion</h3>
+              <p>Trabajo en el area de mantenimiento electrico de la planta Ardion Chacabuco. – 2023 - actualidad.</p>
+            </div>
+          </div>
+  
+          <div class="timeline-item" data-index="5">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Programador Full-Stack ARWEB</h3>
+              <p>Desarrolo de algoritmos, API´s, bots, front-end y back-end de pagina web – 2024</p>
+            </div>
+          </div>
+  
+          <div class="timeline-item" data-index="6">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Técnico informático</h3>
+              <p>De manera autónoma trabajo con celulares y computadoras. Les realizo mantenimiento y actualización de software, solución de problemas, instalación de aplicaciones y asistencia técnica – 2018 - actualidad.</p>
+            </div>
+          </div>
         </div>
-    </section>
-    <section class="education">
+      </div>
+      
+  </section>
+    <section class="education" id="education" data-aos="fade-up" data-aos-delay="200">
         <div class="education_info">
-            <h2>EDUCACIÓN</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor error labore aliquam animi quis veritatis consequuntur explicabo quaerat laudantium doloribus pariatur, omnis esse fugit sunt veniam sint itaque exercitationem et.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic quisquam aliquid nisi rem adipisci reprehenderit placeat ad optio suscipit cumque unde delectus ratione qui et, ducimus est libero laboriosam temporibus?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui suscipit dolores, vel atque quisquam fugit nulla nemo commodi architecto laborum expedita consequatur officia corrupti eos quae aliquid deleniti delectus accusantium.</p>
-
+            <h2 data-aos="fade-up" data-aos-delay="100">EDUCACIÓN</h2>
+            <h3>Escuela de Educación Secundaria Nacional 4</h3>
+            <p>Secundario completo. Bachiller en comunicaciónes. Graduado en 2019</p>
+            <h3>Ticmas academy</h3>
+            <p>Curso básico de programación web. 2021</p>
+            <h3>Instituto Tecnico Superior Chacabuco N°132</h3>
+            <p>Analista de Sistemas, en curso 3er año, inicio 2023.</p>
         </div>
-        <img src="imagenes/retrato.jpeg" alt="studies">
+        <div class="education.img">
+          <img src="imagenes/retrato.jpeg" alt="studies">
+        </div>
+        
     </section>
-    <section class="thanks">
+    <section class="thanks" data-aos="fade-up">
         <h2>GRACIAS</h2>
-        <p>Gracias por tomarte el tiempo de mirar mi portfolio. Espero que te haya gustado :)</p>
+        <p data-aos="fade-up" data-aos-delay="300">Gracias por tomarte el tiempo de mirar mi portfolio. Espero que te haya gustado :)</p>
     </section>
-    <section class="contact">
-        <h2>CONTACTO</h2>
-        <div class="contact-info">
+    <section id="contact" class="contact">
+        <h2 data-aos="fade-up" data-aos-delay="100">CONTACTO</h2>
+        <div class="contact-info" data-aos="fade-up" data-aos-delay="300">
             <div class="social">
                 <ul>
                     <li><img src="imagenes/call-icon.svg" alt="phone">
@@ -223,7 +283,10 @@
             </div>
         </div>
     </section>
-<script src="script.js"></script>
-        
+    <footer>
+        <p>© 2025 Elias Gioia</p>
+    </footer>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
 </body>
 </html> 
