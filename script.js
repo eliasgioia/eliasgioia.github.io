@@ -48,4 +48,11 @@ window.addEventListener('DOMContentLoaded', () => {
       }, index * 500); // animación secuencial
     });
 });
+document.getElementById('languageToggle').addEventListener('change', function () {
+  const lang = this.checked ? 'en' : 'es';
+  document.querySelectorAll('[data-es]').forEach(el => {
+    el.textContent = el.getAttribute(`data-${lang}`);
+  });
+});
+
 AOS.init();
