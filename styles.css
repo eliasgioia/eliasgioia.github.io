@@ -44,6 +44,58 @@ html {
     color: #ff6600;
     transform: translateY(-5px);
 }
+
+.switch {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  z-index: 1000;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: relative;
+  width: 50px;
+  height: 26px;
+  background-color: #ccc;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: 3px;
+  top: 3px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+input:checked + .slider {
+  background-color: rgb(255, 136, 0);
+}
+
+input:checked + .slider::before {
+  transform: translateX(24px);
+}
+
+.flag-icon {
+  width: 35px;
+  height: 24px;
+  object-fit: cover;
+}
+
+
 /* --------------------------------HEADER--------------------------------- */
 .header {
     scroll-margin-top: 200px;

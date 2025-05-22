@@ -13,16 +13,25 @@
 <body>  
     <nav class="navbar">
         <ul class="nav-links">
-            <li><a href="#home">Inicio</a></li>
-            <li><a href="#about">Sobre Mí</a></li>
-            <li><a href="#skills">Habilidades</a></li>
-            <li><a href="#experience">Experiencia</a></li>
-            <li><a href="#education">Educación</a></li>
-            <li><a href="#contact">Contacto</a></li>
+            <li><a href="#home" data-es="Inicio" data-en="Home">Inicio</a></li>
+            <li><a href="#about" data-es="Sobre Mí" data-en="About Me">Sobre Mí</a></li>
+            <li><a href="#skills" data-es="Habilidades" data-en="Skills">Habilidades</a></li>
+            <li><a href="#experience" data-es="Experiencia" data-en="Experience">Experiencia</a></li>
+            <li><a href="#education" data-es="Educación" data-en="Education">Educación</a></li>
+            <li><a href="#contact" data-es="Contacto" data-en="Contact">Contacto</a></li>
         </ul>
+        <label class="switch">
+           <img src="imagenes/ar.png" alt="Español" class="flag-icon">
+  
+            <input type="checkbox" id="languageToggle">
+            <span class="slider"></span>
+  
+            <img src="imagenes/us.png" alt="English" class="flag-icon">
+        </label>
+
     </nav>
     <header class="header" id="home">
-        <h1>PORTFOLIO</h1>
+        <h1 data-es="PORTAFOLIO" data-en="PORTFOLIO">PORTAFOLIO</h1>
         <h2>_____________2025_____________</h2>
     </header>
     <section class="about_me" id="about">
@@ -30,12 +39,12 @@
           <img src="imagenes/retrato.jpeg" alt="Retrato">
         </div>
         <div class="info" data-aos="fade-up">
-            <h2>SOBRE MÍ</h2>
-            <p>Hola! Gracias por permitirme presentarme. Mi nombre es Elías Gioia, tengo 23 años y soy de Chacabuco, Buenos Aires. Soy un estudiante avanzado de Analista de Sistemas y programador web. Si te interesa saber más de mí o ver en qué estoy trabajando, te invito a recorrer mi portfolio.</p>
+            <h2 data-es="SOBRE MÍ" data-en="ABOUT ME">SOBRE MÍ</h2>
+            <p data-es="Hola! Es un gusto poder presentarme. Mi nombre es Elías Gioia, tengo 23 años y soy de Chacabuco, Buenos Aires. Soy un estudiante avanzado de Analista de Sistemas y programador web. Si te interesa saber más de mí o ver en qué estoy trabajando, te invito a recorrer mi portafolio." data-en="Hi! It's a pleasure to introduce myself. My name is Elias Gioia, I'm 23 years old and I'm from Chacabuco, Buenos Aires. I'm an advanced student of Systems Analyst and web developer. If you're interested in knowing more about me or seeing what I'm working on, I invite you to check out my portfolio.">Hola! Es un gusto poder presentarme. Mi nombre es Elías Gioia, tengo 23 años y soy de Chacabuco, Buenos Aires. Soy un estudiante avanzado de Analista de Sistemas y programador web. Si te interesa saber más de mí o ver en qué estoy trabajando, te invito a recorrer mi portfaolio.</p>
         </div>
     </section>
     <section class="skills" data-aos="fade-up" id="skills">
-        <h2>HABILIDADES</h2> 
+        <h2 data-es="HABILIDADES" data-en="SKILLS">HABILIDADES</h2> 
         <div class="skills-grid">  
           <div class="skill large html" data-aos="fade-right" data-aos-delay="1100">
             <div class="flip-card">
@@ -120,7 +129,7 @@
                 <div class="flip-card-front">
                   <img src="imagenes/sistemas.png" alt="asistencia en sistemas">
                 </div>
-                <div class="flip-card-back">Asistencia en Sistemas</div>
+                <div class="flip-card-back" data-es="Asistencia en Sistemas" data-en="System Support">Asistencia en Sistemas</div>
               </div>
             </div>
           </div>
@@ -142,7 +151,7 @@
                 <div class="flip-card-front">
                   <img src="imagenes/ingles.png" alt="ingles">
                 </div>
-                <div class="flip-card-back">Inglés</div>
+                <div class="flip-card-back" data-es="Inglés" data-en="English">Inglés</div>
               </div>
             </div>
           </div>
@@ -164,7 +173,7 @@
                 <div class="flip-card-front">
                   <img src="imagenes/canva.png" alt="diseño">
                 </div>
-                <div class="flip-card-back">Diseño</div>
+                <div class="flip-card-back" data-es="Diseño" data-en="Design">Diseño</div>
               </div>
             </div>
           </div>
@@ -172,58 +181,50 @@
     </section>
     <section class="experience" data-aos="fade-up" id="experience">
       <div class="imag">
-        <img src="imagenes/retrato.jpeg" alt="Retrato">
+        <img src="" alt="Experience">
       </div>
       <div class="experience_info" data-aos="fade-up" data-aos-delay="200">
-        <h2 data-aos="fade-up" data-aos-delay="100">EXPERIENCIA</h2>
+        <h2 data-aos="fade-up" data-aos-delay="100" data-es="EXPERIENCIA" data-en="EXPERIENCE">EXPERIENCIA</h2>
         <div class="timeline">
           <div class="timeline-line" id="timeline-line"></div>
         
           <div class="timeline-item" data-index="1">
             <div class="timeline-dot"></div>
             <div class="timeline-content">
-              <h3>Tecnico instalador de equipos de red</h3>
-              <p>Instalación de equipos en servidores, cables de red, repetidores Wi-Fi y brindar soporte técnico – 2019 - 2020.</p>
+              <h3 data-es="Tecnico instalador de equipos de red" data-en="Network Installer">Técnico instalador de equipos de red</h3>
+              <p data-es="Instalación de equipos en servidores, cables de red, repetidores Wi-Fi y brindar soporte técnico – 2019 - 2020." data-en="Installation of equipment in servers, network wires, Wi-Fi repeaters and provide technical support – 2019 - 2020.">Instalación de equipos en servidores, cables de red, repetidores Wi-Fi y brindar soporte técnico – 2019 - 2020.</p>
             </div>
           </div>
         
           <div class="timeline-item" data-index="2">
             <div class="timeline-dot"></div>
             <div class="timeline-content">
-              <h3>Técnico electrónico</h3>
-              <p>Por un tiempo me dediqué a la reparación de celulares, consolas, PC, instalación de sistemas operativo y soporte técnico en una tienda de tecnoligía en mi ciudad – 2021 - 2022.</p>
+              <h3 data-es="Técnico electrónico" data-en="Electronic Technician">Técnico electrónico</h3>
+              <p data-es="Por un tiempo me dediqué a la reparación de celulares, consolas, PC, instalación de sistemas operativo y soporte técnico en una tienda de tecnoligía de mi ciudad – 2021 - 2022." data-en="For a while, I was dedicated to repairing mobile phones, computers, PCs, installing operating systems and providing technical support in a technology store of my city – 2021 - 2022.">Por un tiempo me dediqué a la reparación de celulares, consolas, PC, instalación de sistemas operativo y soporte técnico en una tienda de tecnoligía de mi ciudad – 2021 - 2022.</p>
             </div>
           </div>
-        
+  
           <div class="timeline-item" data-index="3">
             <div class="timeline-dot"></div>
             <div class="timeline-content">
-              <h3>Ayudante de mecánico</h3>
-              <p>Trabajé ayudando en el taller de mi padre, reparando autos y colocando equipos de GNC hasta de 5ta generación – 2020 - 2021 y 2022 - 2023
+              <h3 data-es="Electrisista de mantenimiento" data-en="Electrician maintenance">Electrisista de mantenimiento</h3>
+              <p data-es="Trabajo en el area de mantenimiento electrico de la planta Ardion Chacabuco en la compañía RDL. – 2023 - actualidad." data-en="I work in the electrical maintenance area of the Ardion Chacabuco plant in the RDL company. – 2023 - current.">Trabajo en el area de mantenimiento electrico de la planta Ardion Chacabuco en la compañía RDL. – 2023 - actualidad.</p>
             </div>
           </div>
   
           <div class="timeline-item" data-index="4">
             <div class="timeline-dot"></div>
             <div class="timeline-content">
-              <h3>Electricidad RDL Ardion</h3>
-              <p>Trabajo en el area de mantenimiento electrico de la planta Ardion Chacabuco. – 2023 - actualidad.</p>
+              <h3 data-es="Programador Full-Stack ARWEB" data-en="Full-Stack developer ARWEB">Programador Full-Stack ARWEB</h3>
+              <p data-es="Hice una pasantía en una pequeña empresa de software desarrollando bots, algoritmos y front-end de pagina web – 2024" data-en="I worked as an intern at a small software company developing bots, algorithms and front-end of web pages – 2024">Hice una pasantía en una pequeña empresa de software desarrollando bots, algoritmos y front-end de pagina web – 2024</p>
             </div>
           </div>
   
           <div class="timeline-item" data-index="5">
             <div class="timeline-dot"></div>
             <div class="timeline-content">
-              <h3>Programador Full-Stack ARWEB</h3>
-              <p>Desarrolo de algoritmos, API´s, bots, front-end y back-end de pagina web – 2024</p>
-            </div>
-          </div>
-  
-          <div class="timeline-item" data-index="6">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-              <h3>Técnico informático</h3>
-              <p>De manera autónoma trabajo con celulares y computadoras. Les realizo mantenimiento y actualización de software, solución de problemas, instalación de aplicaciones y asistencia técnica – 2018 - actualidad.</p>
+              <h3 data-es="Técnico informático" data-en="Computer Technician">Técnico informático</h3>
+              <p data-es="De manera autónoma trabajo con celulares y computadoras. Les realizo mantenimiento y actualización de software, solución de problemas, instalación de aplicaciones y asistencia técnica – 2018 - actualidad." data-en="I work with computers and mobile phones. I do maintenance and software updates, problem solving, application installation and technical support – 2018 - current.">De manera autónoma trabajo con celulares y computadoras. Les realizo mantenimiento y actualización de software, solución de problemas, instalación de aplicaciones y asistencia técnica – 2018 - actualidad.</p>
             </div>
           </div>
         </div>
@@ -232,31 +233,31 @@
   </section>
     <section class="education" id="education" data-aos="fade-up" data-aos-delay="200">
         <div class="education_info">
-            <h2 data-aos="fade-up" data-aos-delay="100">EDUCACIÓN</h2>
-            <h3>Escuela de Educación Secundaria Nacional 4</h3>
-            <p>Secundario completo. Bachiller en comunicaciónes. Graduado en 2019.</p>
-            <h3>Ticmas academy</h3>
-            <p>Curso básico de programación web. 2021.</p>
-            <h3>Instituto Tecnico Superior Chacabuco N°132</h3>
-            <p>Analista de Sistemas, en curso 3er año, inicio 2023.</p>
+            <h2 data-aos="fade-up" data-aos-delay="100" data-es="EDUCACIÓN" data-en="EDUCATION">EDUCACIÓN</h2>
+            <h3 data-es="Escuela de Educación Secundaria Nacional N°4" data-en="High School of Education National N°4">Escuela de Educación Secundaria Nacional N°4</h3>
+            <p data-es="Secundario completo. Bachiller en comunicaciónes. Graduado en 2019." data-en="High School finished. Bachelor in communications. Graduated in 2019.">Secundario completo. Bachiller en comunicaciónes. Graduado en 2019.</p>
+            <h3 data-es="Ticmas Academy" data-en="Ticmas Academy">Ticmas Academy</h3>
+            <p data-es="Curso básico de programación web. 2021." data-en="Basic web development course. 2021.">Curso básico de programación web. 2021.</p>
+            <h3 data-es="Instituto Tecnico Superior Chacabuco N°132" data-en="Higher Technical Institute Chacabuco N°132">Instituto Tecnico Superior Chacabuco N°132</h3>
+            <p data-es="Analista de Sistemas, en curso 3er y último año, inicio 2023." data-en="Systems Analyst, in course 3rd and last year, start 2023.">Analista de Sistemas, en curso 3er y último año, inicio 2023.</p>
         </div>
         <div class="education_img">
-          <img src="imagenes/retrato.jpeg" alt="studies">
+          <img src="" alt="studies">
         </div>
         
     </section>
     <section class="thanks" data-aos="fade-up">
-        <h2>GRACIAS</h2>
-        <p data-aos="fade-up" data-aos-delay="300">Gracias por tomarte el tiempo de mirar mi portfolio. Espero que te haya gustado :)</p>
+        <h2 data-es="GRACIAS" data-en="THANK YOU">GRACIAS</h2>
+        <p data-aos="fade-up" data-aos-delay="300" data-es="Gracias por tomarte el tiempo de mirar mi portafolio. Espero que te haya gustado :)" data-en="Thanks for taking the time to look at my portfolio. I hope you liked it :)">Gracias por tomarte el tiempo de mirar mi portfolio. Espero que te haya gustado :)</p>
     </section>
     <section id="contact" class="contact">
-        <h2 data-aos="fade-up" data-aos-delay="100">CONTACTO</h2>
+        <h2 data-aos="fade-up" data-aos-delay="100" data-es="CONTACTO" data-en="CONTACT">CONTACTO</h2>
         <div class="contact-info" data-aos="fade-up" data-aos-delay="300">
             <div class="social">
                 <ul>
                     <li><img src="imagenes/call-icon.svg" alt="phone">
                         <div>
-                            <span>tel: </span><br>+54 2352-495259
+                            <span data-es="tel: " data-en="phone: ">tel: </span><br>+54 2352-495259
                         </div>
                     </li>
                     <li><img src="imagenes/email-round-solid-icon.svg" alt="e-mail">
@@ -271,13 +272,13 @@
                 </ul>
             </div>
             <div class="contact-form">
-                <h3>Deja un mensaje</h3>
+                <h3 data-es="Deja un mensaje" data-en="Leave me a message">Deja un mensaje</h3>
                 <form id="contactForm" action="https://formspree.io/f/xgvkerle" method="POST">
-                    <input type="text" name="name" placeholder="Nombre" required>
-                    <input type="email" name="email" placeholder="Email">
-                    <textarea name="message" style="resize: none;" placeholder="Mensaje" rows="5" cols="50"></textarea>
-                    <button type="submit">Enviar</button>
-                    <p id="responseMsg" class="success-msg">¡Mensaje enviado con éxito!</p>
+                    <input type="text" name="name" required data-es="Nombre" data-en="Name" placeholder="Nombre">
+                    <input type="email" name="email" placeholder="E-mail">
+                    <textarea name="message" style="resize: none;" data-es="Mensaje" data-en="Message" placeholder="Mensaje" rows="5" cols="50"></textarea>
+                    <button type="submit" data-es="Enviar" data-en="Send">Enviar</button>
+                    <p id="responseMsg" data-es="¡Mensaje enviado con éxito!" data-en="Message sent successfully!" class="success-msg">¡Mensaje enviado con éxito!</p>
                 </form>
             </div>
         </div>

@@ -48,4 +48,19 @@ window.addEventListener('DOMContentLoaded', () => {
       }, index * 500); // animación secuencial
     });
 });
+
+document.getElementById('languageToggle').addEventListener('change', function () {
+  const lang = this.checked ? 'en' : 'es';
+
+  document.querySelectorAll('[data-es]').forEach(el => {
+    if (el.hasAttribute('placeholder')) {
+      el.setAttribute('placeholder', el.getAttribute(`data-${lang}`));
+    } else {
+      el.textContent = el.getAttribute(`data-${lang}`);
+    }
+  });
+});
+
+
+
 AOS.init();
