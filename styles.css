@@ -373,8 +373,9 @@ header h2{
 
 .experience img {
     margin: 5%;
-    width: 400px;
-    height: 400px;
+    margin-top: 30%;
+    height: 600px;
+    width: auto;
     border-radius: 10%;
     object-fit: cover;
 }
@@ -459,17 +460,17 @@ header h2{
 }
 .education .education_info {
     font-size: 20px;
-    width: 60%;
+    width: 50%;
 }
 
 .education_img{
-    width: 40%;
+    width: 50%;
 }
 
 .education img {
     margin-right: 10%;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     border-radius: 10%;
     object-fit: cover;
 }
